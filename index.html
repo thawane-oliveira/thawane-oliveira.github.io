@@ -18,6 +18,20 @@
         .Descricao, ul, #Country, #Age, #House{
             font-family: 'Nova Mono', monospace;    }
 
+    h2, #Country, #Age, #House {
+        border-style:groove;
+    }
+
+    #Country{
+        font-style:italic;
+    }
+    #Age {
+        font-style: oblique;
+    }
+    #House {
+        font-style:italic;
+    }
+
     .Draw {
         font-size: 25px;
     }
@@ -25,16 +39,26 @@
         font-size: 20px;
     }
     .Cook { 
-        font-size: 15px;
+        font-size: 18px;
     }
     .Sew {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     img {
         border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    h2, h3, #Desc, #Blog, #Country, #Age, #House {
+  text-align: center;
+  }
+
+  .Descricao {
+    text-align: justify;
+  }
  </style>
 
     </head>
@@ -44,7 +68,7 @@
 
     <p id="Country">Brasileira</p>
     <p id="Age">26 anos</p>
-    <p id="House">Resido no bairro Liberdade em São Paulo/SP</p>
+    <p id="House">Resido no bairro <strong>Liberdade</strong> em São Paulo/SP</p>
     <br>
 
     <h4>Índice</h4>
@@ -56,8 +80,6 @@
 
     </ul> <br>
 
-
-    
     <strong id="Desc">Descrição</strong>
     <p class="Descricao">Nascida em 1996, morei em São Vicente (litoral de SP) até meus 21 anos. Me mudei para Embu das Artes - SP em 2018, devido ao primeiro emprego. Trabalhei a princípio em call center e posteriormente como funcionária pública. </p>
     <p class="Descricao">Ah, possuo formação técnica em química e superior em design de moda!
@@ -68,7 +90,6 @@
 
   </p>
 
-  
   <br>
 
     <h4 id="Skills">Habilidades</h4>
