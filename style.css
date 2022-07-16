@@ -41,8 +41,8 @@
     #Thawane {
         float: left;
         height: 250px;
-        padding: 10px;
-        background-color: paleturquoise;
+        padding: 5px;
+        background-color: firebrick;
      }
 
     .image-container {
@@ -50,11 +50,10 @@ height: 300px;
     }
 
     .Descricao {
+        margin-left: 20px;
+        padding: 20px;
     }
 
-    div {
- border: 2px solid palevioletred;
-    }
 
     ul li:nth-child(odd){
         font-style: italic;
