@@ -1,0 +1,51 @@
+    h2,h3,h4,#Desc,#Blog {
+        font-family: 'Share Tech Mono', monospace;
+    }
+
+    #Body {
+        background-color: #FFE5D9;
+    }
+
+    .Descricao,ul,#Country,#Age,#House {
+        font-family: 'Nova Mono', monospace;
+    }
+
+      #meunome {
+        text-align: center;
+    }
+
+    #Country, #House {
+        font-style: italic;
+    }
+
+    #Age {
+        font-style: oblique;
+    }
+
+     .Draw {
+        font-size: 25px;
+    }
+
+    .Play {
+        font-size: 20px;
+    }
+
+    .Cook {
+        font-size: 18px;
+    }
+
+    .Sew {
+        font-size: 15px;
+    }
+
+    #Thawane {
+        float: left;
+     }
+
+
+    .Descricao {
+    }
+
+    div {
+ border: 4px solid palevioletred;
+    }
