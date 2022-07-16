@@ -55,3 +55,14 @@ height: 300px;
     div {
  border: 2px solid palevioletred;
     }
+
+    ul li:nth-child(odd){
+        font-style: italic;
+        background-color: darkorange;
+        font-family: cursive;
+    }
+
+    ul {
+        margin: 50px;
+        padding: 30px;
+    }
